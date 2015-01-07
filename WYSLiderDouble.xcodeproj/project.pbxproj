@@ -14,6 +14,12 @@
 		189BBCE51A5C1D4400FFE8BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189BBCE41A5C1D4400FFE8BA /* Images.xcassets */; };
 		189BBCE81A5C1D4400FFE8BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189BBCE61A5C1D4400FFE8BA /* LaunchScreen.xib */; };
 		189BBCF41A5C1D4500FFE8BA /* WYSLiderDoubleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BBCF31A5C1D4500FFE8BA /* WYSLiderDoubleTests.m */; };
+		189BBD061A5C1D6C00FFE8BA /* LDTSelectCarSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BBCFF1A5C1D6C00FFE8BA /* LDTSelectCarSlide.m */; };
+		189BBD071A5C1D6C00FFE8BA /* price@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189BBD001A5C1D6C00FFE8BA /* price@2x.png */; };
+		189BBD081A5C1D6C00FFE8BA /* price@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189BBD011A5C1D6C00FFE8BA /* price@3x.png */; };
+		189BBD091A5C1D6C00FFE8BA /* pricebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189BBD021A5C1D6C00FFE8BA /* pricebg@2x.png */; };
+		189BBD0A1A5C1D6C00FFE8BA /* pricebg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189BBD031A5C1D6C00FFE8BA /* pricebg@3x.png */; };
+		189BBD0B1A5C1D6C00FFE8BA /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BBD051A5C1D6C00FFE8BA /* UIView+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,14 @@
 		189BBCED1A5C1D4500FFE8BA /* WYSLiderDoubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYSLiderDoubleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189BBCF21A5C1D4500FFE8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189BBCF31A5C1D4500FFE8BA /* WYSLiderDoubleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYSLiderDoubleTests.m; sourceTree = "<group>"; };
+		189BBCFE1A5C1D6C00FFE8BA /* LDTSelectCarSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTSelectCarSlide.h; sourceTree = "<group>"; };
+		189BBCFF1A5C1D6C00FFE8BA /* LDTSelectCarSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTSelectCarSlide.m; sourceTree = "<group>"; };
+		189BBD001A5C1D6C00FFE8BA /* price@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "price@2x.png"; sourceTree = "<group>"; };
+		189BBD011A5C1D6C00FFE8BA /* price@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "price@3x.png"; sourceTree = "<group>"; };
+		189BBD021A5C1D6C00FFE8BA /* pricebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pricebg@2x.png"; sourceTree = "<group>"; };
+		189BBD031A5C1D6C00FFE8BA /* pricebg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pricebg@3x.png"; sourceTree = "<group>"; };
+		189BBD041A5C1D6C00FFE8BA /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		189BBD051A5C1D6C00FFE8BA /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		189BBCD61A5C1D4400FFE8BA /* WYSLiderDouble */ = {
 			isa = PBXGroup;
 			children = (
+				189BBCFD1A5C1D6C00FFE8BA /* sliderKit */,
 				189BBCDB1A5C1D4400FFE8BA /* AppDelegate.h */,
 				189BBCDC1A5C1D4400FFE8BA /* AppDelegate.m */,
 				189BBCDE1A5C1D4400FFE8BA /* ViewController.h */,
@@ -117,6 +132,21 @@
 				189BBCF21A5C1D4500FFE8BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189BBCFD1A5C1D6C00FFE8BA /* sliderKit */ = {
+			isa = PBXGroup;
+			children = (
+				189BBCFE1A5C1D6C00FFE8BA /* LDTSelectCarSlide.h */,
+				189BBCFF1A5C1D6C00FFE8BA /* LDTSelectCarSlide.m */,
+				189BBD001A5C1D6C00FFE8BA /* price@2x.png */,
+				189BBD011A5C1D6C00FFE8BA /* price@3x.png */,
+				189BBD021A5C1D6C00FFE8BA /* pricebg@2x.png */,
+				189BBD031A5C1D6C00FFE8BA /* pricebg@3x.png */,
+				189BBD041A5C1D6C00FFE8BA /* UIView+Extend.h */,
+				189BBD051A5C1D6C00FFE8BA /* UIView+Extend.m */,
+			);
+			path = sliderKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +229,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189BBD071A5C1D6C00FFE8BA /* price@2x.png in Resources */,
 				189BBCE31A5C1D4400FFE8BA /* Main.storyboard in Resources */,
+				189BBD081A5C1D6C00FFE8BA /* price@3x.png in Resources */,
+				189BBD0A1A5C1D6C00FFE8BA /* pricebg@3x.png in Resources */,
 				189BBCE81A5C1D4400FFE8BA /* LaunchScreen.xib in Resources */,
 				189BBCE51A5C1D4400FFE8BA /* Images.xcassets in Resources */,
+				189BBD091A5C1D6C00FFE8BA /* pricebg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				189BBCE01A5C1D4400FFE8BA /* ViewController.m in Sources */,
+				189BBD061A5C1D6C00FFE8BA /* LDTSelectCarSlide.m in Sources */,
 				189BBCDD1A5C1D4400FFE8BA /* AppDelegate.m in Sources */,
+				189BBD0B1A5C1D6C00FFE8BA /* UIView+Extend.m in Sources */,
 				189BBCDA1A5C1D4400FFE8BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
